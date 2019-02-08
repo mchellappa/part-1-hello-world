@@ -1,0 +1,7 @@
+---
+applications:
+- name: HelloWorld
+  buildpacks:
+  - dotnet_core_buildpack213
+  path: ./src
+  memory: 256M
